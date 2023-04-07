@@ -18,7 +18,7 @@ const Country = (props) => {
         <h3 className="mt-2 font-bold">Name : {name.common}</h3>
         <h3 className="mt-2 font-bold">Population : {population}</h3>
         <h3 className="mt-2 font-bold">Capital : {capital}</h3>
-        <h3 className="mt-2 font-bold">Area : {area}</h3>
+        <h3 className="mt-2 font-bold">Area : {area} BKM</h3>
         <button
           className="px-4 py-2 mt-2 bg-black text-white hover:bg-red-600 rounded-xl"
           onClick={() => {

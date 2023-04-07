@@ -51,7 +51,7 @@ const App = () => {
         Country App
       </h1>
       <Search onSearch={handleSearch} />
-      {loding && <h2>Loading...</h2>}
+      {loding && <h1 className=" text-center font-bold text-2xl text-purple-600">Loading...</h1>}
       {error && <h2>{error.message}</h2>}
       {countries && (
         <Countries
